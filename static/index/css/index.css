@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+.banner{
+    height:500px;
+    background:url("../images/banner.jpg") no-repeat center;
+    overflow:hidden;
+}
+.click-bot{
+    display:inline-block;
+    width:36px;
+    height:36px;
+    background:url("../images/banner_ic.png") no-repeat 0 0;
+    bottom:110px;
+    left:50%;
+}
+
+.main{
+    margin-top:-50px;
+}
+.news{
+    height:120px;
+    background:#fff;
+}
+.news-tips{
+    width:180px;
+    height:120px;
+    background:#1d82cf;
+    text-align:center;
+}
+.news-tips span{
+    display:inline-block;
+    width:100%;
+}
+.new-t-icon{
+    display:inline-block;
+    width:9px;
+    height:18px;
+    background:url("../images/ic_blue.png") no-repeat 0 0;
+    right:-9px;
+    top:51px;
+}
+.news-list{
+    width:740px;
+    padding:25px 50px 25px 30px;
+}
+.news-list h3{
+    width:740px;
+    font-size:14px;
+    font-weight:bold;
+    overflow:hidden;
+}
+.news-list h3 a{
+    color:#333;
+}
+.news-list h3 a:hover{
+    color:#1d82cf;
+}
+.news-list p{
+    height:40px;
+    margin-top:10px;
+    color:#666;
+    overflow: hidden;
+}
+
+.news-page{
+    width:24px;
+    height:120px;
+    top:35px;
+    right:20px;
+}
+.news-page a,
+.news-page a.cur{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    text-indent:-100px;
+    overflow:hidden;
+    margin:6px 0;
+    background:url("../images/page01.png") no-repeat 0 0;
+}
+
+.page-top{
+    background-position:0 0;
+}
+.page-top:hover,
+.news-page a.cur{
+   background-position:-17px 0;
+}
+.news-page a.page-bot{
+    background-position:0 -16px;
+}
+.news-page a.page-bot:hover,
+.news-page a.cur{
+   background-position:-17px -17px;
+}
+
+
+/*政策法规*/
+
+.news-con-p{
+    width:430px;
+    padding:30px;
+    background:#fff;
+}
+.tit{
+    height:42px;
+    border-bottom:1px solid #ccc;
+}
+.tit-l{
+    height:42px;
+}
+.tit-l p{
+    line-height:18px;
+}
+.tit-name{
+    color:#333;
+    font-weight:bold;
+}
+.tit-name-sec,
+.tit-date-year{
+    color:#999;
+    text-transform: uppercase;
+}
+.tit-date{
+    text-align:right;
+}
+.tit-date-day{
+    line-height:22px;
+    font-size:26px;
+    color:#666;
+}
+.news-group ul{
+    height:220px;
+    overflow:hidden;
+}
+.news-group ul li{
+    height:24px;
+    line-height:24px;
+    margin:20px 0;
+    overflow:hidden;
+}
+.news-group ul li a{
+    color:#666;
+}
+.news-group ul li a:hover{
+   text-decoration:underline;
+    color:#1d82cf;
+}
+
+/*犬伤人事件*/
+
+.event{
+    height:552px;
+    background:url("../images/banner2.jpg") no-repeat center;
+}
+.tith3{
+    text-align:center;
+    height:60px;
+    margin-top:50px;
+}
+
+.event-list li{
+    width:500px;
+    float:left;
+    height:180px;
+    overflow:hidden;
+}
+.ev-img{
+    width:250px;
+    height:180px;
+    float:left;
+}
+.ev-con{
+    float:left;
+    width:210px;
+    height:140px;
+    padding:20px;
+    background:#fff;
+    cursor: auto;
+}
+.event-list h4{
+    height:36px;
+    line-height:24px;
+    font-size:16px;
+    font-weight:bold;
+    overflow:hidden;
+    color:#333;
+}
+.event-list p{
+    height:82px;
+    line-height:24px;
+    color:#666;
+    overflow:hidden;
+}
+.event-list li.cur .ev-con,
+.event-list li:hover .ev-con{
+    background:#177bc7;
+}
+.event-list li.cur h4,
+.event-list li:hover h4{
+    color:#fff;
+}
+.event-list li.cur p,
+.event-list li:hover p{
+    color:#bbd1ea;
+}
+.even-more{
+    display:none;
+    color:#fff;
+}
+.event-list li.cur .even-more,
+.event-list li:hover .even-more{
+    display:block;
+}
+.ev-nav{
+    display:inline-block;
+    width:8px;
+    height:16px;
+    top:20%;
+    background:url("../images/ev-nav.png") no-repeat 0 0;
+}
+.ev-nav-l{
+    left:-8px;
+    background-position:0 0;
+}
+.ev-nav-r{
+    right:-8px;
+    background-position:-9px 0;
+}
+
+.event-list li.cur .ev-nav-l,
+.event-list li:hover .ev-nav-l{
+    background-position:0 -18px;
+}
+.event-list li.cur .ev-nav-r,
+.event-list li:hover .ev-nav-r{
+    background-position:-9px -18px;
+}
+
+/*地图*/
+.hospital-warp{
+    background:#fff;
+}
+
+.map-search{
+    display:inline-block;
+    width:66px;
+    height:66px;
+    background:url(../images/btn-map.png) no-repeat 0 0;
+    right:20px;
+    bottom:70px;
+}
+.map-search:hover{
+    background-position:-66px 0;
+}
